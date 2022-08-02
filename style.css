@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Section */
+.navbar
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 1rem 2rem;
+}
+.navbar-brand
+{
+    font-size: 30px;
+}
+.navbar-nav
+{
+    gap: 1.5rem;
+}
+.nav-link
+{
+    font-weight: 400;
+
+}
+.purchase-btn
+{
+    font-weight: 500;
+    color: white;
+    background-color: #FF8D29;
+}
+.purchase-btn:hover
+{
+    color: #FF8D29;
+}
+/* Underline animation effect */
+.active
+{
+    font-weight: 600;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+    #FF8D29;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  /* Title Section */
+  .banner-text h1
+  {
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .banner-hr
+  {
+    width: 10%;
+    position: relative;
+    bottom: 3px;
+    height: 3px;
+    background: black;
+  }
+  .banner-text h4
+  {
+    display: flex;
+    gap: 1rem;
+  }
+  .banner-text p
+  {
+    font-size: 15px;
+    width: 60%;
+    font-weight: 400;
+    opacity: .8;
+  }
+  .hello-btn
+  {
+    display: flex;
+    gap: 1rem;
+    font-weight: 500;
+    border: 1px solid black;
+    color: #FF8D29;
+  }
+  .hello-icon
+  {
+    width: 30px;
+  }
