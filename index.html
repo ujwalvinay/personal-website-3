@@ -13,6 +13,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 
+     <!-- Font Awesom Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -42,7 +45,7 @@
               </li> 
             </ul>
             <button class="btn purchase-btn" >
-              Purchase Now
+              Hire me
             </button>
           </div>
         </div>
@@ -51,18 +54,102 @@
       <!-- Title Section -->
       <section class="title">
         <div class="row">
-          <div class="col-md-6 banner-text">
+          <div class="col-md-5 banner-text ">
             <h1>Ujwal Vinay</h1>
             <h4><hr class="banner-hr">Web Developer</h4>
-            <p>I'm a passionate developer based in India, and I'm always enthusiastic and dedicated to my work</p>
-            <button class="btn hello-btn">
-              Say Hello <i class="fa-solid fa-paper-plane"></i> 
-              <!-- <img src="assets/paper-plane.svg" alt="hello-icon" class="hello-icon"> -->
-            </button>
-            <a href="#"> My Works <img src="assets/portfolio.svg" alt="portfolio-icon" class="portfolio-icon"></a>
+            <p class="banner-p">I'm a passionate developer based in India, and I'm always enthusiastic and dedicated to my work</p>
+            <div class="banner-buttons">
+              <button class="btn hello-btn text-center">
+                Say Hello <i class="fa-solid fa-paper-plane"></i> 
+              </button>
+              <a href="#" class="works-icon hover-underline-animation"> My Works  <i class="fa-solid fa-briefcase"></i></a>
+            </div>
+            <div class="socials">
+              <p>Follow me: </p>
+              <a href="https://www.linkedin.com/in/ujwalvinay/?originalSubdomain=in"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://mobile.twitter.com/vinayujwal"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://github.com/ujwalvinay"><i class="fa-brands fa-github"></i></a>
+            </div>
           </div>
-          <div class="col-md-6 banner-image">
-            <img src="https://cdn.dribbble.com/users/45010/screenshots/14281687/media/79f87d23670e2144bd2d5e2742185c8e.png?compress=1&resize=1000x750&vertical=top" alt="banner-img" class="banner-img">
+          <div class="col-md-7 banner-image">
+            <img src="https://cdn.dribbble.com/users/1042995/screenshots/5192735/media/9b12773e41f161407d12cd6120871247.jpg?compress=1&resize=800x600&vertical=top" alt="banner-img" class="banner-img">
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="row ">
+          <div class="col-md-6 about-image">
+            <img src="assets/image_processing20210510-25762-11rvssf-removebg-preview.png" alt="about-img" class="about-img">
+          </div>
+          <div class="col-md-6">
+            <div class="about-head">
+              <h6>About Me</h6>
+              <hr class="about-hr">  
+            </div>
+            <h1>Biography</h1>
+            <p class="about-p">I'm a freelance front-end developer with over 4 years of experience. I'm from India. I code and create websites for amazing people around the world. I like working with new people. New people are new experiences.</p>
+            <div class="bio-cv-area">
+              <div class="biography">
+                <div class="category">
+                  <p>Name</p>
+                  <p>Birthday</p>
+                  <p>Age</p>
+                  <p>Adress</p>
+                  <p>Email</p>
+                </div>
+                <div class="values">
+                  <p>Ujwal Vinay</p>
+                  <p>7th August 2001</p>
+                  <p>21 Years</p>
+                  <p>Kerala, India</p>
+                  <p>ujwalvinay@ieee.org</p>
+                </div>
+              </div> 
+              <div class="cv-dwnld">
+                <button class="cv-btn"><a href="https://drive.google.com/uc?export=download&id=1u8ZCUlFy2me5x1oVLjx8Y74kRv-PYOEe"> Download CV <img src="assets/document.svg" alt="doc" class="doc-img"></a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="expert-section">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>My expert</h1>
+            <div class="hr-sec">
+              <h1>areas</h1>
+              <hr>
+            </div>
+            <p>Basically I'm a web developer good at both front-end and back-end. I'm experienced in Data Structures and Algorithm. I know few programming languages like C, C++, Python, Java, JavaScript, html and css and query languages like MySQL and PostgressSQL. I'm comfortable with linux and linux commands. Also familiar with version control system like Git.</p>
+            <button class="btn resume-btn"><a href="https://drive.google.com/uc?export=download&id=1u8ZCUlFy2me5x1oVLjx8Y74kRv-PYOEe"> My Resume <img src="assets/document.svg" alt="doc-img" class="doc-img"></a></button>
+            
+          </div>
+        </div>
+      </section>
+      <section class="service-section">
+        <h2>Services</h2>
+        <div class="hr-sec">
+          <h2>I provide</h2>
+          <hr style="width: 4%;">
+        </div>
+        <div class="service-items">
+          <hr>
+          <div class="01">
+            <h3>01</h3>
+            <h1>Web Development</h1>
+            <p>I create premmium website for clients all around the glob</p>
+          </div>
+          <div class="02">
+            <h3>02</h3>
+            <h1>Photography</h1>
+            <p>Are you in a mood for a photoshoot? get in touch with me.</p>
+          </div>
+          <div class="03">
+            <h3>03</h3>
+            <h1>UI/UX</h1>
+            <p>Simple and elegant themes </p>
           </div>
         </div>
       </section>
