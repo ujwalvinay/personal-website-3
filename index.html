@@ -17,31 +17,31 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" id="navbar-example2">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">UV</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto" >
+            <ul class="navbar-nav mx-auto nav-pills" >
               <li class="nav-item">
-                <a class="nav-link  hover-underline-animation active"  href="#">Home</a>
+                <a class="nav-link  hover-underline-animation active"  href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#">About</a>
+                <a class="nav-link hover-underline-animation" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#">Resume</a>
+                <a class="nav-link hover-underline-animation" href="#resume">Resume</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#">Services</a>
+                <a class="nav-link hover-underline-animation" href="#services">Services</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#">Skills</a>
+                <a class="nav-link hover-underline-animation" href="#skills">Skills</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#">Contact</a>
+                <a class="nav-link hover-underline-animation" href="#contact">Contact</a>
               </li> 
             </ul>
             <button class="btn purchase-btn" >
@@ -51,8 +51,9 @@
         </div>
       </nav>
 
-      <!-- Title Section -->
-      <section class="title">
+      <div class="content-container data-bs-spy="scroll" data-bs-target="#navbar-example2"">
+        <!-- Title Section -->
+      <section class="title" id="home">
         <div class="row">
           <div class="col-md-5 banner-text ">
             <h1>Ujwal Vinay</h1>
@@ -78,7 +79,7 @@
       </section>
 
       <!-- About Section -->
-      <section class="about-section">
+      <section class="about-section" id="about" >
         <div class="row ">
           <div class="col-md-6 about-image">
             <img src="assets/image_processing20210510-25762-11rvssf-removebg-preview.png" alt="about-img" class="about-img">
@@ -114,7 +115,9 @@
           </div>
         </div>
       </section>
-      <section class="expert-section">
+
+      <!-- Expert Section -->
+      <section class="expert-section" id="resume">
         <div class="row">
           <div class="col-md-6">
             <h1>My expert</h1>
@@ -128,30 +131,39 @@
           </div>
         </div>
       </section>
-      <section class="service-section">
-        <h2>Services</h2>
+      <!-- Service Section -->
+      <section class="service-section" id="service">
+        <div class="row">
+          <div class="col-md-9">
+            <h1>Services</h1>
         <div class="hr-sec">
-          <h2>I provide</h2>
+          <h1>I provide</h1>
           <hr style="width: 4%;">
         </div>
         <div class="service-items">
           <hr>
-          <div class="01">
+          <div class="service1 service-item my-auto">
             <h3>01</h3>
-            <h1>Web Development</h1>
-            <p>I create premmium website for clients all around the glob</p>
+            <h2>Web Development</h2>
+            <p>I create premmium website for clients all around the glob. Specialised in building wordpress websites for brands</p>
           </div>
-          <div class="02">
+          <hr>
+          <div class="service2 service-item">
             <h3>02</h3>
-            <h1>Photography</h1>
-            <p>Are you in a mood for a photoshoot? get in touch with me.</p>
+            <h2>Photography</h2>
+            <p>Are you in a mood for a photoshoot? get in touch with me. I'm good at both portrait and landscape photography</p>
           </div>
-          <div class="03">
+          <hr>
+          <div class="service3 service-item">
             <h3>03</h3>
-            <h1>UI/UX</h1>
-            <p>Simple and elegant themes </p>
+            <h2>UI/UX</h2>
+            <p>I create simple yet elegant web designs, which are attractive and easy to navigate </p>
+          </div>
+          <hr>
+        </div>
           </div>
         </div>
       </section>
+      </div>
 </body>
 </html>
