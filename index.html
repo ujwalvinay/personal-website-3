@@ -17,7 +17,7 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg" id="navbar-example2">
+    <nav class="navbar navbar-expand-lg" >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">UV</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto nav-pills" >
               <li class="nav-item">
-                <a class="nav-link  hover-underline-animation active"  href="#home">Home</a>
+                <a class="nav-link  hover-underline-animation "  href="#home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link hover-underline-animation" href="#about">About</a>
@@ -37,9 +37,9 @@
               <li class="nav-item">
                 <a class="nav-link hover-underline-animation" href="#services">Services</a>
               </li> 
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link hover-underline-animation" href="#skills">Skills</a>
-              </li> 
+              </li>  -->
               <li class="nav-item">
                 <a class="nav-link hover-underline-animation" href="#contact">Contact</a>
               </li> 
@@ -51,7 +51,7 @@
         </div>
       </nav>
 
-      <div class="content-container data-bs-spy="scroll" data-bs-target="#navbar-example2"">
+      <div class="content-container" >
         <!-- Title Section -->
       <section class="title" id="home">
         <div class="row">
@@ -61,7 +61,7 @@
             <p class="banner-p">I'm a passionate developer based in India, and I'm always enthusiastic and dedicated to my work</p>
             <div class="banner-buttons">
               <button class="btn hello-btn text-center">
-                Say Hello <i class="fa-solid fa-paper-plane"></i> 
+                <a href="mailto:ujwalvinay@ieee.org">Say Hello <i class="fa-solid fa-paper-plane"></i> </a>
               </button>
               <a href="#" class="works-icon hover-underline-animation"> My Works  <i class="fa-solid fa-briefcase"></i></a>
             </div>
@@ -132,7 +132,7 @@
         </div>
       </section>
       <!-- Service Section -->
-      <section class="service-section" id="service">
+      <section class="service-section" id="services">
         <div class="row">
           <div class="col-md-9">
             <h1>Services</h1>
@@ -145,7 +145,7 @@
           <div class="service1 service-item my-auto">
             <h3>01</h3>
             <h2>Web Development</h2>
-            <p>I create premmium website for clients all around the glob. Specialised in building wordpress websites for brands</p>
+            <p>I create premium website for clients all around the globe. Specialised in building wordpress websites for brands</p>
           </div>
           <hr>
           <div class="service2 service-item">
@@ -164,6 +164,32 @@
           </div>
         </div>
       </section>
+
+      <!-- Footer Section -->
+      <footer id="contact">
+        <div class="lets-connect">
+          <div class="footer-banner">
+            <h1>Let's Work Together</h1>
+            <p>I appreciate hearing from people all over the world who enjoy my work and welcome any questions or enquiries, connect me via email. </p>
+          </div>
+          <button class="btn hello-btn text-center my-auto">
+            <a href="mailto:ujwalvinay@ieee.org">Say Hello <i class="fa-solid fa-paper-plane"></i> </a>
+          </button>
+        </div>
+        <div class="footer-bottom">
+          <div class="sec1">
+            <p>Email</p>
+            <h4><a href="mailto:ujwalvinay@ieee.org" class="hover-underline-animation">ujwalvinay@ieee.org</a></h4>
+          </div>
+          <div class="socials">
+            <p>Follow me: </p>
+            <a href="https://www.linkedin.com/in/ujwalvinay/?originalSubdomain=in"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://mobile.twitter.com/vinayujwal"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/ujwalvinay"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        </div>
+      </footer>
       </div>
 </body>
 </html>
