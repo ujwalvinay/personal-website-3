@@ -9,9 +9,11 @@
 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
 
     background-color: white;
+    position: fixed;
+    width: 100%;
 
 }
 .navbar-brand
@@ -286,4 +288,47 @@
     gap: 10px;
   }
 
-  /* Expert Section */
+/* Service section */
+.service-section
+{
+  margin-top: 2rem;
+  padding: 5rem 0;
+  padding-left: 15%;
+  background-color: #fafafb;
+}
+.service-items
+{
+  margin-top: 3rem;
+}
+.service-items hr
+{
+  width: 95%;
+  margin: 0;
+}
+.service-item p
+{
+  text-align:left;
+  padding-left: 5rem;
+  padding-top: 5px;
+  width: 60%;
+}
+.service2 p
+{
+  padding-left: 8.5rem;
+  width: 58%;
+}
+.service3 p
+{
+  padding-left: 14.5rem;
+}
+.service-item
+{
+  display: flex;
+  gap: 4rem;
+  padding: 1rem 2rem;
+}
+.service-item:hover
+{
+  background-color: #FF8D29;
+  color: white;
+}
