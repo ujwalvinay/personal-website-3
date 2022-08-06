@@ -70,6 +70,10 @@
 
 
   /* Title Section */
+  .title
+  {
+    padding-block: 5rem;
+  }
   .banner-text
   {
     padding-left:15%;
@@ -175,6 +179,7 @@
     background-color: #FF8D29;
     color: #f6f6f6;
     padding: 3rem;
+    padding-block: 6rem;
   }
   .about-img
   {
@@ -250,11 +255,12 @@
 
   
   /* Expertise Section */
+
   .expert-section
   {
     
     font-family: 'DM Sans', sans-serif;
-    padding: 2rem 3rem;
+    padding: 6rem 3rem;
   }
   .expert-section p
   {
@@ -331,4 +337,62 @@
 {
   background-color: #FF8D29;
   color: white;
+}
+
+
+/* Footer section */
+footer
+{
+  padding: 4rem 10rem;
+  background-color: #12141d;
+  color: white;
+}
+footer .hello-btn:hover
+{
+  background-color: white;
+}
+footer p
+{
+  width: 55%;
+}
+footer button
+{
+  width: 160px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.lets-connect
+{
+  display: flex;
+  gap: 3rem;
+}
+.footer-bottom
+{
+  padding-block: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.sec1 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.sec1 p
+{
+  opacity: .6;
+}
+.footer-bottom i
+{
+  background-color: rgb(217, 217, 217);
+}
+
+
+/* Touch Ups */
+.hello-btn a
+{
+  text-decoration: none;
+
+  color: unset;
 }
